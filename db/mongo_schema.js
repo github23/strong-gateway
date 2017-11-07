@@ -4,7 +4,7 @@ var Schema = mongoose.Schema;
 
 var options = {
     id : false,
-    _id : false,
+    _id : true,
     autoIndex : false
 };
 
